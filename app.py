@@ -9,7 +9,7 @@ def get_token():
 
     if not Key:
         return ' - Missing Access Key ! ', 400
-    if Key != 'C4-BESTO-7J9K-1DAY':
+    if Key != 'C4-BESTO-OI-LL-1K':
         return Response(' - Bad Access Key ! Call DevloPer Besto | @BestoPy')
        
     response = requests.get('https://raw.githubusercontent.com/Besto-Apis/Tt/refs/heads/main/Jwt.txt')

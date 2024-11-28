@@ -3,7 +3,7 @@ import requests,base64
 
 app = Flask(__name__)
 
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = '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'
 REPO_OWNER = 'Besto-Apis'
 REPO_NAME = 'ToKens'
 

@@ -23,8 +23,9 @@ def fetch_file_content(file_path):
 
 @app.route('/Token-Jwt', methods=['GET'])
 def get_token():
-    Key = request.args.get('Key')
     Jwt = request.args.get('Jwt')
+    Key = request.args.get('Key')
+    
     if not Key:
         return ' - Missing Access Key ! ', 400
     if Key != 'C4-BESTO-JWT-TOKENS-H9L0':
